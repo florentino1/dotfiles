@@ -1,4 +1,4 @@
-alias ll='ls -lh'
+alias ll='ls -al'
 alias grep='grep --color'
 
 # Aliases to protect against overwriting

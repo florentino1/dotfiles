@@ -1,0 +1,40 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+  
+- link:
+    ~/.zshrc:
+      force: true
+      path: zshrc
+      
+    ~/.zsh_history:
+      force: true
+      path: zsh_history
+
+    ~/.bashrc:
+      force: true
+      path: bashrc
+      
+    ~/.gitconfig:
+      force: true
+      path: gitconfig
+    
+    ~/.shell:
+    ~/.zsh:
+    ~/.tmux.conf:
+    ~/.vim:
+    ~/.vimrc:
+
+#- shell:
+#  - command: chsh -s $(which zsh)
+#    stdin: true
+#    stdout: true
+#   stderr: true
+  
+
+  #- command: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  #- command: $(which bash) -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
