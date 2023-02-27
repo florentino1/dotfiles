@@ -1,0 +1,2 @@
+command script import /Users/moxuan/pythonProject1/lldb/nudge.py
+command script import /usr/local/opt/chisel/libexec/fbchisellldb.py
